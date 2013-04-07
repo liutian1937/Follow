@@ -1,0 +1,4 @@
+Follow
+======
+
+Javascript Follow Plugin
