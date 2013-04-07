@@ -1,7 +1,10 @@
 /*
 	Name:Javascript Follow Plugin
 	Link:https://github.com/liutian1937/Follow
+<<<<<<< HEAD
 	Website:http://www.niumowang.org
+=======
+>>>>>>> 05b1a8fc9e0f6949d2cfa953ff213b0d62340881
 	Author:ok8008@yeah.net
 */
 (function(){
