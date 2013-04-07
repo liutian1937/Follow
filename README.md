@@ -11,9 +11,8 @@ Js 跟随滚动效果插件
 =======
 
 使用方法
+&lt;script type="text/javascript" src="follow.js"&gt;&lt;/script&gt;
 
-<script type="text/javascript" src="follow.js"></script>
-<script>
 window.onload = function(){
 	var followIds = [document.getElementById("follow"),document.getElementById("follow2")];
 	new Follow({
@@ -21,4 +20,3 @@ window.onload = function(){
 		bottom:150
 	});
 }
-</script>

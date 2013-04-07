@@ -1,6 +1,6 @@
 /*
 	Name:Javascript Follow Plugin
-	Link:https://github.com/liutian1937/FollowEffect
+	Link:https://github.com/liutian1937/Follow
 	Author:ok8008@yeah.net
 */
 (function(){
