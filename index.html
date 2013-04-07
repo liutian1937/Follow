@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head profile="http://gmpg.org/xfn/11">
+<meta charset="UTF-8">
+<title>Js Follow</title>
+<style>
+html,body{width:100%;margin:0;padding:0;}
+div{padding:0;margin:0;text-align:center;font-size:40px;font-weight:bold;color:#fff;}
+.clear:after{content:"";display:block;height:0;clear:both;visibility: hidden;overflow:hidden;}
+.clear{*zoom:1;}
+
+.wrap{width:1000px;margin:0 auto;}
+.header{width:100%;background:#1BA1E2;height:200px;line-height:300px;}
+.footer{width:100%;background:#666;height:150px;line-height:100px;}
+.content{width:100%;margin:0 auto;background:#aaa;}
+.left{width:70%;float:left;background:#8CBF26;}
+.text{padding:50px;text-align:left;word-break:break-all;line-height:36px;font-size:16px;font-weight:normal;}
+.right{width:30%;float:left;}
+.aside{padding:10px 0px;margin-top:50px;background:#F09609;width:300px;height:150px;}
+.aside2{padding:10px 0px;background:#DB4F33;}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">Header</div>
+		<div class="content clear">
+			<div class="left">
+				<div class="text">
+				使用方法：<br/>
+				1.载入插件，在页面载入之后，window.onload = function(){}<br/>
+				2.创建需要跟随的对象的数组，比如 var followIds = [document.getElementById("follow"),document.getElementById("follow2")];<br/>
+				3.初始化Follow：new Follow();<br/>
+				4.传参，obj是对象数组，bottom是滚动块距离底部的最小的高度<br/>
+				<hr/>
+<pre style="word-break:break-all;word-wrap:break-word;width:600px;">
+&lt;script type="text/javascript" src="follow.js"&gt;&lt;/script&gt;
+
+window.onload = function(){
+	var followIds = [document.getElementById("follow"),document.getElementById("follow2")];
+	new Follow({
+		obj:followIds,
+		bottom:150
+	});
+}
+
+</pre>
+				</div>
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div>
+			<div class="right">
+				<div class="aside" id="follow">
+					Id="scroll" <br/>
+					跟随滚动<br/>固定块
+				</div>
+				<div class="aside2" id="follow2">
+					跟随滚动<br/>模块2
+				</div>
+			</div>
+		</div>
+		<div class="footer">Footer</div>
+	</div>
+
+<script type="text/javascript" src="follow.js"></script>
+<script>
+window.onload = function(){
+	var followIds = [document.getElementById("follow"),document.getElementById("follow2")];
+	new Follow({
+		obj:followIds,
+		bottom:150
+	});
+}
+</script>	
+</body>
+</html>
