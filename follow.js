@@ -1,6 +1,7 @@
 /*
 	Name:Javascript Follow Plugin
 	Link:https://github.com/liutian1937/Follow
+	Website:http://www.niumowang.org
 	Author:ok8008@yeah.net
 */
 (function(){
