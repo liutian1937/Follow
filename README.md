@@ -3,7 +3,6 @@ Follow
 
 Javascript Follow Plugin
 
-<<<<<<< HEAD
 Js 跟随滚动效果插件
 支持定义多个跟随ID，采用css fixed属性，不支持ie6，兼容其他主流浏览器。
 支持定义滚动到底部的最小高度，不会覆盖底部
@@ -15,7 +14,7 @@ Js 跟随滚动效果插件<br/>
 <li>支持定义滚动到底部的最小高度，不会覆盖底部</li>
 <li>页面大小resize后，插件会自动重置参数</li>
 </ol>
->>>>>>> 05b1a8fc9e0f6949d2cfa953ff213b0d62340881
+
 
 =======
 
@@ -31,3 +30,5 @@ window.onload = function(){
 	});
 }
 </pre>
+
+
