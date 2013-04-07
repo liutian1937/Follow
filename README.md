@@ -3,14 +3,15 @@ Follow
 
 Javascript Follow Plugin
 
-Js ¸úËæ¹ö¶¯Ð§¹û²å¼þ
-Ö§³Ö¶¨Òå¶à¸ö¸úËæID£¬²ÉÓÃcss fixedÊôÐÔ£¬²»Ö§³Öie6£¬¼æÈÝÆäËûÖ÷Á÷ä¯ÀÀÆ÷¡£
-Ö§³Ö¶¨Òå¹ö¶¯µ½µ×²¿µÄ×îÐ¡¸ß¶È£¬²»»á¸²¸Çµ×²¿
-Ò³Ãæ´óÐ¡resizeºó£¬²å¼þ»á×Ô¶¯ÖØÖÃ²ÎÊý
+Js è·Ÿéšæ»šåŠ¨æ•ˆæžœæ’ä»¶
+æ”¯æŒå®šä¹‰å¤šä¸ªè·ŸéšIDï¼Œé‡‡ç”¨css fixedå±žæ€§ï¼Œä¸æ”¯æŒie6ï¼Œå…¼å®¹å…¶ä»–ä¸»æµæµè§ˆå™¨ã€‚
+æ”¯æŒå®šä¹‰æ»šåŠ¨åˆ°åº•éƒ¨çš„æœ€å°é«˜åº¦ï¼Œä¸ä¼šè¦†ç›–åº•éƒ¨
+é¡µé¢å¤§å°resizeåŽï¼Œæ’ä»¶ä¼šè‡ªåŠ¨é‡ç½®å‚æ•°
 
 =======
 
-Ê¹ÓÃ·½·¨
+ä½¿ç”¨æ–¹æ³•
+<pre>
 &lt;script type="text/javascript" src="follow.js"&gt;&lt;/script&gt;
 
 window.onload = function(){
@@ -20,3 +21,4 @@ window.onload = function(){
 		bottom:150
 	});
 }
+</pre>
