@@ -1,6 +1,8 @@
 Follow
 ======
 
+Demo : <a href="http://liutian1937.github.io/Follow/" target="_blank">http://liutian1937.github.io/Follow/</a>
+
 Javascript Follow Plugin
 
 Js 跟随滚动效果插件<br/>
